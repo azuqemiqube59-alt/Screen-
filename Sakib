@@ -1,0 +1,12 @@
+here vscreen-view-app/
+│
+├── public/
+│   ├── index.html
+│   ├── viewer.html
+│   └── main.js
+│
+├── server.js
+└── package.json   (Step 3-এ auto বানবে)cd path/to/screen-view-app
+npm init -y
+npm install express socket.io uuidnode server.js 
+http://localhost:3000/viewer.html?device=abcd1234
